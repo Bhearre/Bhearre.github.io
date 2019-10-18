@@ -1,0 +1,163 @@
+.navbar {
+
+    /* background: blue; */
+    background: white;
+    border-color: #666666;
+    border-bottom: #666666;
+    border-bottom-width: 10px;
+    width: 960px;
+    /* margin: 0 auto; */
+    margin: 0 auto -10px auto;
+    padding: 0px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-decoration-color: #777777;
+    
+}
+
+
+hr {
+    size: 1px;
+    width: 100%;
+    align: left;
+    /* color: blue; */
+    color: #BFBFC0;
+}
+.content_background {
+
+    background: #F2F2F2;
+    width: 100%;
+    align: center;
+}
+.navbar::after {
+
+    content: '';
+    display: table;
+    clear: both;
+
+}
+header::after {
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    /* background: green; */
+    background: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 960px;
+    padding: 20px 20px 20px 20px;
+    /* border-color: #dddddd; */
+    border-color: #666666;
+    border-width: 10px;
+    margin: 10px auto;
+    line-height: 150%;
+    color:  #777777;
+}
+
+body {
+    background: white;
+    border-color: #dddddd;
+    padding: 20px 20px 20px 20px;    
+}    
+  
+h1{
+    color: #4aaaa5;
+}
+
+logo {
+    padding: 10px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    background: #4aaaa5;
+    color: white;
+    float: left;
+
+}
+
+nav ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+    float: right;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    /* padding-top: 25px; */
+
+}
+
+nav a {
+    color: #666666;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+
+    color: orange;
+}
+img {
+
+    margin: 0 20px 20px 0;
+    padding: 0;
+    float: left;
+}
+
+footer {
+
+    padding: 20px 20px 20px 20px;
+    background: #666666;
+    border-top: #4aaaa5;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 90%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact_container {
+    background: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 960px;
+    padding: 20px 20px 20px 20px;
+   border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-width: 10px;
+    margin: 10px auto;
+    line-height: 150%;
+    color:  #777777;
+
+  }

@@ -1,5 +1,4 @@
 .navbar {
-
     /* background: blue; */
     background: white;
     border-color: #666666;
@@ -11,9 +10,7 @@
     padding: 0px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-decoration-color: #777777;
-    
 }
-
 
 hr {
     size: 1px;
@@ -22,21 +19,20 @@ hr {
     /* color: blue; */
     color: #BFBFC0;
 }
-.content_background {
 
+.content_background {
     background: #F2F2F2;
     width: 100%;
     align: center;
 }
-.navbar::after {
 
+.navbar::after {
     content: '';
     display: table;
     clear: both;
-
 }
-header::after {
 
+header::after {
     content: '';
     display: table;
     clear: both;
@@ -53,16 +49,16 @@ header::after {
     border-width: 10px;
     margin: 10px auto;
     line-height: 150%;
-    color:  #777777;
+    color: #777777;
 }
 
 body {
     background: white;
     border-color: #dddddd;
-    padding: 20px 20px 20px 20px;    
-}    
-  
-h1{
+    padding: 20px 20px 20px 20px;
+}
+
+h1 {
     color: #4aaaa5;
 }
 
@@ -75,7 +71,6 @@ logo {
     background: #4aaaa5;
     color: white;
     float: left;
-
 }
 
 nav ul {
@@ -87,11 +82,11 @@ nav ul {
     font-weight: 200;
     font-size: 16px;
 }
+
 nav li {
     display: inline-block;
     margin-left: 70px;
     /* padding-top: 25px; */
-
 }
 
 nav a {
@@ -101,11 +96,10 @@ nav a {
 }
 
 a:hover {
-
     color: orange;
 }
-img {
 
+img {
     margin: 0 20px 20px 0;
     padding: 0;
     height: 150px;
@@ -113,58 +107,66 @@ img {
     float: left;
 }
 
-footer {
 
-    padding: 20px 20px 20px 20px;
-    background: #666666;
-    border-top: #4aaaa5;
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+    width: 90%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 90%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .contact_container {
+}
+
+
+/* Add a background color and some padding around the form */
+
+.contact_container {
     background: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width: 960px;
     padding: 20px 20px 20px 20px;
-   border-radius: 5px;
+    border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     border-width: 10px;
     margin: 10px auto;
     line-height: 150%;
-    color:  #777777;
+    color: #777777;
+}
 
-  }
-  .thumbnail {
-        
+.thumbnail {
     padding: 0 0 10px 0;
     margin: 0px;
     font-family: sans-serif;
@@ -173,6 +175,59 @@ input[type=text], select, textarea {
     background: #4aaaa5;
     color: white;
     float: left;
+}
 
+.box {
+    margin: 35px;
+    border: 1px solid #DDDDDD;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+}
 
-  }
+.banner {
+    padding: 0px;
+    margin: 150px 0 0 0;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+}
+
+.container2 {
+    /* background: green; */
+    background: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 750px;
+    padding: 20px 20px 20px 20px;
+    /* border-color: #dddddd; */
+    border-color: #666666;
+    border-width: 10px;
+    margin: 10px auto;
+    line-height: 150%;
+    color: #777777;
+    float: left;
+}
+
+.container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer {
+    padding: 20px 20px 20px 20px;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

@@ -232,3 +232,11 @@ footer {
     color: white;
     text-align: center;
 }
+
+textarea {
+    resize: none;
+}
+
+.button {
+    background: #4aaaa5;
+}

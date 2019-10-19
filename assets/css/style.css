@@ -187,7 +187,7 @@ input[type=submit]:hover {
 }
 
 .banner {
-    padding: 0px;
+    padding: 10px 0 0 0;
     margin: 150px 0 0 0;
     font-family: sans-serif;
     font-weight: 200;
@@ -197,13 +197,14 @@ input[type=submit]:hover {
     position: absolute;
     width: 150px;
     height: 40px;
+    text-align: center;
 }
 
 .container2 {
     /* background: green; */
     background: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    width: 750px;
+    width: 600px;
     padding: 20px 20px 20px 20px;
     /* border-color: #dddddd; */
     border-color: #666666;
